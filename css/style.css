@@ -13,6 +13,11 @@ img {
   width: 70%;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 400px) {
+  img {
+    width: 40vh;
+  }
+}
 
 audio {
   padding-top: 5px;
