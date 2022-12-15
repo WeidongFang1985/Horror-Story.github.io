@@ -15,8 +15,8 @@ img {
 }
 
 audio {
-  padding-top: 6px;
-  width: 120px;
+  padding-top: 5px;
+  width: 170px;
   height: 30px;
 }
 
@@ -24,11 +24,14 @@ table {
   border: 1px solid white;
   color: white;
   text-align: center;
-  width: 300px;
+  width: 320px;
   border-collapse: collapse;
 }
 table th, table td {
   border: 1px solid white;
+}
+table tr td:last-child {
+  padding: 0 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
