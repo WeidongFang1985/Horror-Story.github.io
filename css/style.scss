@@ -19,7 +19,7 @@ img {
 
 audio {
   padding-top: 5px;
-  width: 170px;
+  width: 180px;
   height: 30px;
 }
 
@@ -28,12 +28,13 @@ table {
   color: white;
   text-align: center;
   width: 320px;
+  box-sizing: border-box;
   border-collapse: collapse;
   th,td {
     border: 1px solid white;
   }
   tr td:last-child {
-    padding: 0 20px;
+    padding: 0 8px;
   }
 
 }

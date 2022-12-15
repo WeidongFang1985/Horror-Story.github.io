@@ -21,7 +21,7 @@ img {
 
 audio {
   padding-top: 5px;
-  width: 170px;
+  width: 180px;
   height: 30px;
 }
 
@@ -30,13 +30,14 @@ table {
   color: white;
   text-align: center;
   width: 320px;
+  box-sizing: border-box;
   border-collapse: collapse;
 }
 table th, table td {
   border: 1px solid white;
 }
 table tr td:last-child {
-  padding: 0 20px;
+  padding: 0 8px;
 }
 
 /*# sourceMappingURL=style.css.map */
